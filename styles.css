@@ -1,1 +1,37 @@
-
+.container{
+	display:flex;
+	border:2px solid red;
+/* 	flex-flow:column wrap; */
+	padding:5px;
+	justify-content:row;
+	align-items:row;
+}
+img{
+	height:100px;
+	width:100px;
+	
+}
+.profile{
+	display:flex;
+	flex-flow:column wrap;
+	padding:5px 30px;
+	justify-content:auto;
+}
+.image{
+	display:flex;
+	padding:5px;
+}
+.subcontainer1{
+	border:2px solid blue;
+	display:flex;
+	width:50%;
+	flex-wrap:wrap;
+	justify-content:auto;
+}
+.subcontainer2{
+	display:flex;
+	flex-wrap:wrap;
+	border:2px solid green;
+	padding:10px;
+	width:50%;
+}
